@@ -1,0 +1,21 @@
+
+{
+    "manifest_version": 3,
+    "name": "Coursera UoL Week Marker",
+    "version": "1.0",
+    "description": "This extension allows UoL's coursera students to manually mark weeks as completed.",
+    "content_scripts": [
+        {
+            "matches": ["https://*.coursera.org/*"],
+            "js": ["content.js"],
+            "run_at": "document_start"
+        }
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*.coursera.org/*"
+    ]
+}
+
