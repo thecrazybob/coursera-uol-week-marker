@@ -2,7 +2,7 @@
 This extension allows UoL's Coursera students to manually mark weeks as completed.
 
 # TODO:
-- [ ] Fix `DOMContentLoaded` listener
+- [x] Fix `DOMContentLoaded` listener
 - [ ] Store data into Chrome's storage
 - [ ] Retrieve stored data and apply checkmarks
 - [ ] Create button that says "Mark Week as Completed" and move event listeners to this button
